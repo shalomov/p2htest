@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".btn-to_top").click(function(){return $("html, body").animate({scrollTop:0},"slow"),!1})});

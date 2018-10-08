@@ -1,0 +1,24 @@
+/*******************************   global   *******************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style-type: none; }
+
+a:hover {
+  text-decoration: none; }
+
+body {
+  font-family: Arial, serif; }
+
+img {
+  max-width: 100%;
+  width: 100%;
+  vertical-align: top; }
+
+figure {
+  margin: 0; }
+
+/*******************************   global /  *******************************/

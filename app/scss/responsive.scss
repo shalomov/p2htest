@@ -1,0 +1,179 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+        .head-banner {
+            min-height: 300px;
+        }
+        .article-wrapp {
+            .article-item {
+                .article-social {
+                    background-color: #f9f9f9;
+                    padding: 20px 40px;
+                    .article-date {
+                        margin-bottom: 10px; 
+                    }
+                }
+            }
+        }
+        .aside-banner {
+            .aside-banner_img {
+                max-height: 250px;
+            }
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        .footer-col_list {
+
+            div {
+
+                &:not(:last-child):after {
+                    content: '';
+                    display: none;
+                }
+            }
+        }
+        .top-slider {
+            .carousel-control-prev {
+                margin-left: 50px;
+            }
+        }
+        .top-slider {
+            .carousel-control-next {
+                margin-right: 50px;
+            }
+        } 
+        .overlay {
+            .slider-title {
+                margin: 50px auto 10px auto;
+            }
+        }
+        .top-slider {
+            .carousel-control-next {
+                width: 30px;
+                height: 30px;
+            }
+            .carousel-control-prev {
+                width: 30px;
+                height: 30px; 
+            }
+        }
+        .overlay {
+            .slider-title {
+                font-size: 25px;
+                line-height: 25px;
+            }
+            .title-des {
+                max-width: 380px;
+                margin-bottom: 10px;
+            }
+            
+        }
+        .top-slider {
+            .w-100 {
+                max-height: 350px;
+            }
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .main-content {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+        .footer-second_block {
+            min-height: 200px;
+        }
+        .top-slider {
+            .carousel-control-prev {
+                margin-left: 30px;
+            }
+            .carousel-control-next {
+                margin-right: 30px;
+            }
+        }
+        .article-wrapp {
+            .article-item {
+                figcaption {
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin: 0 20px 20px 20px;
+                }
+                .artile-desc {
+                    margin: 0 20px 20px 20px;
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+            }
+        }
+        .footer-first_block{
+            padding-top: 30px;
+            padding-bottom: 40px;
+        }
+        .footer-second_block {
+            .footer-myinsta {
+                padding: 20px 20px;
+            }
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        .footer-first_block {
+            .btn-to_top {
+                margin-top: 10px;
+            }
+        }
+        .top-slider {
+            .carousel-control-prev {
+                margin-left: 10px;
+            }
+            .carousel-control-next {
+                margin-right: 10px;
+            }
+        }
+        .overlay {
+            .slider-title {
+                margin: 20px auto 10px auto;
+            }
+            .slider-title {
+                font-size: 20px;
+                max-width: 350px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .main-top_nav {
+        
+            li {
+
+                a {
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 360px) {
+        .overlay {
+            .slider-title {
+                margin: 10px auto 10px auto;
+            }
+            .slider-title {
+                font-size: 18px;
+                max-width: 350px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .title-des {
+                font-size: 12px;
+                line-height: 15px;
+                max-width: 280px;
+            }
+        }
+
+    }
